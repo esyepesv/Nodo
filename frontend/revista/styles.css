@@ -1,18 +1,54 @@
 body{
-    width: 100vw;
-    height: 100vh;
-    margin: 0;
-    padding: 0;
-}
-main{
-    background-color: aquamarine;
     width: 100%;
     height: 100%;
+    background-color: red;
+    margin: 50px;
 }
 
-div{
-    background-color: brown;
-    width: 100px;
-    height: 100px;
-    
+main{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(81, 233, 217);
+    margin: 0px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: white;
+}
+.date{
+    font-weight: bold;
+    text-align: right;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+header{
+    color: white;
+    font-size: x-large;
+}
+h1{
+    color: red;
+    font-size: 250px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.content{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+}
+h2{
+    color: yellow;;
+    font-size: 100px;  
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+h3{
+    color: white;
+    font-size: 150px;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+.cont-text{
+    color: white;;
 }
