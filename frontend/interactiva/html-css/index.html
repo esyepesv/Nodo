@@ -3,9 +3,32 @@
 
   <head>
     <title>Mi primera página web</title>
+    <!--  <meta name="title" content="Mi primera pagina web" /> -->
+
+    <meta name="description" content="descripcion de los contenidos de la pagina (155 caracters long)"/>
+    <meta name="keywords" content="Key, words, xd" />
+
+    <meta http-equiv="lenguage" content="es"/>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="robots" content="nofollow, noindex">
+
+    <!--  
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mi portafolio - Contacto</title>
+    <meta name="description"
+      content="Contacta con Frailejón Ernesto Pérez y haz que tus proyectos sean una realidad." />
+    <meta name="keywords" content="Desarrollo de Software, Conciencia ambiental" />
+    <link rel="icon" href="/favicon.ico" />
+     -->
+
   </head>
 
   <body>
+
+
     <h1>Hola Mundo</h1>
     <p>
         <b>texto en negrilla</b>
@@ -14,6 +37,9 @@
         <strong>texto importante</strong>
         <em>enfasis</em>
     </p>
+
+
+
 
     <h2>listas</h2>
     <p>
@@ -34,6 +60,130 @@
             <dd>definicion</dd>
         </dl>
     </p>
+
+    <h2>Hipervinculos</h2>
+    <a href="https://www.google.com/"> dirige en la misma pagina</a>
+    <br>
+    <a href="https://www.google.com/" target="_blank"> dirige en otra pestaña</a>
+    <!-- <a href="./index.html"> referencia un archivo en la misma carpeta</a>
+         <a href="../../example.txt"> dirige a carpetas anteriores</a>
+    -->
+    <h3>anclas</h3>
+    <a href="#introduction-section">Enlace a una seccion </a>
+
+ 
+
+
+
+    <h2>Formularios</h2>
+
+
+    <h3>The form element</h3>
+    <form action="/action_page.php">
+      <label for="fname">First name:</label>
+      <input type="text" id="fname" name="fname"><br><br>
+      <label for="lname">Last name:</label>
+      <input type="text" id="lname" name="lname"><br><br>
+      <input type="submit" value="Submit">
+    </form>
+
+    <h3>Form with checkboxes</h3>
+    <form action="/action_page.php" method="get">
+      <input type="checkbox" name="vehicle1" value="Bike">
+      <label for="vehicle1"> I have a bike</label><br>
+      <input type="checkbox" name="vehicle2" value="Car">
+      <label for="vehicle2"> I have a car</label><br>
+      <input type="checkbox" name="vehicle3" value="Boat" checked>
+      <label for="vehicle3"> I have a boat</label><br><br>
+      <input type="submit" value="Submit">
+</form>
+
+
+    <h3>Form with radio buttons</h3>
+    <form action="/action_page.php" method="get">
+      <input type="radio" id="html" name="fav_language" value="HTML">
+      <label for="html">HTML</label><br>
+      <input type="radio" id="css" name="fav_language" value="CSS" checked="checked">
+      <label for="css">CSS</label><br>
+      <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+      <label for="javascript">JavaScript</label><br><br>
+      <input type="submit" value="Submit">
+    </form>
+
+    <h3>select</h3>
+    <form action="/action_page.php">
+      <label for="cars">Choose a car:</label>
+      <select name="cars" id="cars">
+        <optgroup label="Swedish Cars">
+          <option value="volvo">Volvo</option>
+          <option value="saab">Saab</option>
+        </optgroup>
+        <optgroup label="German Cars">
+          <option value="mercedes">Mercedes</option>
+          <option value="audi">Audi</option>
+        </optgroup>
+      </select>
+      <br><br>
+      <input type="submit" value="Submit">
+    </form>
+   
+
+    <h3>text area</h3>
+      <textarea id="w3review" name="w3review" rows="4" cols="50">
+      At w3schools.com you will learn how to make a website. They offer free tutorials in all web development technologies.
+      </textarea>
+
+      
+      <h3>The fieldset element</h3>
+
+      <form action="/action_page.php">
+       <fieldset>
+        <legend>Personalia:</legend>
+        <label for="fname">First name:</label>
+        <input type="text" id="fname" name="fname"><br><br>
+        <label for="lname">Last name:</label>
+        <input type="text" id="lname" name="lname"><br><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email"><br><br>
+        <label for="birthday">Birthday:</label>
+        <input type="date" id="birthday" name="birthday"><br><br>
+        <input type="submit" value="Submit">
+       </fieldset>
+      </form>
+
+
+
+      <h2>Etiquetas de recursos</h2>
+
+
+      <img src="/ruta" alt="texto alternativo / accesibilidad"
+              width="100" height="100">
+
+      <audio src="/ruta" controls>
+        texto que se muestra si no se reproduce
+      </audio>
+      <audio controls>
+        <source src="ruta/tono.ogg" type="audio/ogg">
+        <source src="ruta/tono.mp3" type="audio/mpeg">
+        texto que se muestra si no se reproduce
+      </audio>
+
+      <video poster="poster-video.jpg" width="320" height="240" controls>
+        <source src="movie.mp4" type="video/mp4">
+        <source src="movie.ogg" type="video/ogg">
+        Your browser does not support the video tag.
+      </video>
+
+      <iframe src="https://www.w3schools.com" title="W3Schools Free Online Web Tutorials" width="100" height="100">
+      </iframe>
+      <iframe width="300" height="150"
+              src="https://www.youtube.com/embed/-1pHqK5YD7s"
+              title="YouTube video player" frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen>
+      </iframe>
+
+
 
 
   </body>
