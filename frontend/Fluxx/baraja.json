@@ -1,0 +1,79 @@
+{
+    "Baraja": [
+        {
+            "tipo": "goal",
+            "titulo": "dreamer",
+            "descripcion": ""
+        },
+        {
+            "tipo": "goal",
+            "titulo": "cosmos",
+            "descripcion": ""
+        },
+        {
+            "tipo": "goal",
+            "titulo": "rocket",
+            "descripcion": ""
+        },
+        {
+            "tipo": "keeper",
+            "titulo": "money",
+            "descripcion": ""
+        },
+        {
+            "tipo": "keeper",
+            "titulo": "bread",
+            "descripcion": ""
+        },
+        {
+            "tipo": "keeper",
+            "titulo": "toster",
+            "descripcion": ""
+        },
+        {
+            "tipo": "kreper",
+            "titulo": "rip",
+            "descripcion": ""
+        },
+        {
+            "tipo": "kreper",
+            "titulo": "potato",
+            "descripcion": ""
+        },
+        {
+            "tipo": "kreper",
+            "titulo": "death",
+            "descripcion": ""
+        },
+        {
+            "tipo": "action",
+            "titulo": "fall",
+            "descripcion": ""
+        },
+        {
+            "tipo": "action",
+            "titulo": "draw 3",
+            "descripcion": ""
+        },
+        {
+            "tipo": "action",
+            "titulo": "play 3",
+            "descripcion": ""
+        },
+        {
+            "tipo": "rule",
+            "titulo": "inflation",
+            "descripcion": ""
+        },
+        {
+            "tipo": "rule",
+            "titulo": "win with potato",
+            "descripcion": ""
+        },
+        {
+            "tipo": "rule",
+            "titulo": "reset",
+            "descripcion": ""
+        }
+    ]
+}

@@ -1,0 +1,13 @@
+{
+  "name": "fluxx",
+  "version": "1.0.0",
+  "description": "workshop",
+  "main": "fluxx.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon fluxx.js"
+  },
+  "author": "team 4",
+  "license": "ISC"
+}
