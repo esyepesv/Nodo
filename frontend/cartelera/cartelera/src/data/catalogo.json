@@ -1,0 +1,182 @@
+[
+  {
+    "id": 1,
+    "category": "serie",
+    "name": "Charlie Chan's Courage",
+    "genre": "Mystery",
+    "year": 1958,
+    "duration": 31,
+    "src_img": "http://dummyimage.com/176x100.png/cc0000/ffffff"
+  },
+  {
+    "id": 2,
+    "category": "serie",
+    "name": "Combien Tu M'aimes? (How Much Do You Love Me?)",
+    "genre": "Comedy|Romance",
+    "year": 2012,
+    "duration": 141,
+    "src_img": "http://dummyimage.com/102x100.png/5fa2dd/ffffff"
+  },
+  {
+    "id": 3,
+    "category": "serie",
+    "name": "All at Sea",
+    "genre": "Comedy",
+    "year": 2012,
+    "duration": 127,
+    "src_img": "http://dummyimage.com/179x100.png/dddddd/000000"
+  },
+  {
+    "id": 4,
+    "category": "movie",
+    "name": "Marva Collins Story, The",
+    "genre": "Documentary|Drama",
+    "year": 2011,
+    "duration": 155,
+    "src_img": "http://dummyimage.com/249x100.png/dddddd/000000"
+  },
+  {
+    "id": 5,
+    "category": "serie",
+    "name": "Castle, The",
+    "genre": "Comedy",
+    "year": 2008,
+    "duration": 95,
+    "src_img": "http://dummyimage.com/156x100.png/5fa2dd/ffffff"
+  },
+  {
+    "id": 6,
+    "category": "movie",
+    "name": "Dark Horse (Voksne mennesker)",
+    "genre": "Comedy|Drama|Romance",
+    "year": 2007,
+    "duration": 154,
+    "src_img": "http://dummyimage.com/202x100.png/cc0000/ffffff"
+  },
+  {
+    "id": 7,
+    "category": "serie",
+    "name": "Laura",
+    "genre": "Crime|Film-Noir|Mystery",
+    "year": 2011,
+    "duration": 135,
+    "src_img": "http://dummyimage.com/207x100.png/5fa2dd/ffffff"
+  },
+  {
+    "id": 8,
+    "category": "movie",
+    "name": "Mystery of the Wax Museum",
+    "genre": "Horror",
+    "year": 1989,
+    "duration": 175,
+    "src_img": "http://dummyimage.com/105x100.png/5fa2dd/ffffff"
+  },
+  {
+    "id": 9,
+    "category": "serie",
+    "name": "Magus, The",
+    "genre": "Drama|Fantasy|Mystery",
+    "year": 2001,
+    "duration": 123,
+    "src_img": "http://dummyimage.com/178x100.png/5fa2dd/ffffff"
+  },
+  {
+    "id": 10,
+    "category": "movie",
+    "name": "Dog Year, A",
+    "genre": "Comedy|Drama",
+    "year": 2007,
+    "duration": 5,
+    "src_img": "http://dummyimage.com/118x100.png/ff4444/ffffff"
+  },
+  {
+    "id": 11,
+    "category": "movie",
+    "name": "Loved One, The",
+    "genre": "Comedy",
+    "year": 2010,
+    "duration": 147,
+    "src_img": "http://dummyimage.com/160x100.png/cc0000/ffffff"
+  },
+  {
+    "id": 12,
+    "category": "serie",
+    "name": "Eye 2, The (Gin gwai 2)",
+    "genre": "Horror|Thriller",
+    "year": 1992,
+    "duration": 154,
+    "src_img": "http://dummyimage.com/129x100.png/dddddd/000000"
+  },
+  {
+    "id": 13,
+    "category": "movie",
+    "name": "Empire of the Ants",
+    "genre": "Horror|Sci-Fi",
+    "year": 1990,
+    "duration": 76,
+    "src_img": "http://dummyimage.com/128x100.png/ff4444/ffffff"
+  },
+  {
+    "id": 14,
+    "category": "serie",
+    "name": "Red Salute",
+    "genre": "Comedy|Romance",
+    "year": 2006,
+    "duration": 45,
+    "src_img": "http://dummyimage.com/202x100.png/dddddd/000000"
+  },
+  {
+    "id": 15,
+    "category": "serie",
+    "name": "Flaw, The",
+    "genre": "Documentary",
+    "year": 2010,
+    "duration": 104,
+    "src_img": "http://dummyimage.com/113x100.png/dddddd/000000"
+  },
+  {
+    "id": 16,
+    "category": "serie",
+    "name": "Children of the Corn 666: Isaac's Return",
+    "genre": "Horror|Mystery",
+    "year": 1987,
+    "duration": 115,
+    "src_img": "http://dummyimage.com/204x100.png/5fa2dd/ffffff"
+  },
+  {
+    "id": 17,
+    "category": "serie",
+    "name": "100 Years of Evil",
+    "genre": "Adventure|Comedy|Documentary",
+    "year": 1989,
+    "duration": 64,
+    "src_img": "http://dummyimage.com/163x100.png/dddddd/000000"
+  },
+  {
+    "id": 18,
+    "category": "movie",
+    "name": "Bright Star",
+    "genre": "Drama|Romance",
+    "year": 1993,
+    "duration": 93,
+    "src_img": "http://dummyimage.com/180x100.png/cc0000/ffffff"
+  },
+  {
+    "id": 19,
+    "category": "serie",
+    "name": "Imagine Me & You",
+    "genre": "Comedy|Drama|Romance",
+    "year": 2011,
+    "duration": 30,
+    "src_img": "http://dummyimage.com/144x100.png/ff4444/ffffff"
+  },
+  {
+    "id": 20,
+    "category": "serie",
+    "name": "Story of Science, The",
+    "genre": "Documentary",
+    "year": 1995,
+    "duration": 113,
+    "src_img": "http://dummyimage.com/106x100.png/ff4444/ffffff"
+  }
+]
